@@ -47,7 +47,7 @@ margin: 0;
 .img img{
     height: 530px;
     position: absolute;
-    left:670px
+    left:600px
     
 }
 
@@ -60,12 +60,38 @@ margin: 0;
     font-size: 18px;
     color:white;
     margin: 5px;
-        width: 150px;
-        border-radius: 60px;
-        background: #00D3B5;
+    width: 150px;
+    border-radius: 60px;
+    background: #00D3B5;
 
-        -webkit-box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
-        -moz-box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
-        box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
+    -webkit-box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
+    -moz-box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
+    box-shadow: 3px 3px 25px -1px rgba(157,201,194,1);
 }
 
+section{
+    margin-top:200px;
+    background: #dfdfdf98;
+    
+    
+}
+
+.features h2{
+    font-size: 52px;
+    padding: 45px;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    margin: 30px auto !important;
+    display: flex;
+    align-content: space-between;
+}
+.box-content{
+
+    margin: 0 auto;
+    height:220px;
+    width:350px;
+    background: white;
+}
